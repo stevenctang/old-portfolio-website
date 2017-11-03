@@ -1,0 +1,420 @@
+a{  
+    text-decoration: none;
+    color:black; 
+}
+
+#name{
+    color: black;
+    text-decoration: none;
+    padding-top: 40px;
+    text-align: center;
+    font-size:18px;
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 6px;
+}
+#header{
+    position: fixed;
+    margin-left:-15px;
+    height: 100px;
+    width:100%;
+    background-color:white;
+    z-index: 100;
+
+}
+
+#container1{
+    margin-top: 100px;
+    margin-left:-15px;
+    margin-right:-14px;
+    width:102.5%;
+    background-color:#5c6e67;
+    height: auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#container2{
+    margin-left:-15px;
+    width:102.5%;
+    height:auto;
+    background-color: #a9b4b8;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+#introductionText{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px; 
+    width:50%;
+    margin-left: 25%;
+    padding-top:20px;
+    padding-bottom:40px;
+}
+#aboutmeHeader{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    padding-top: 25;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#container3{
+    margin-left:-15px;
+    padding-top:20px;
+    width:102.5%;
+    height:auto;
+    background-color: #eef3f7;
+    text-align: center;
+}
+#resumeHeader{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    padding-top:15px;
+    padding-bottom: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+.skill {
+    border: 1px solid #50a9d1;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: auto;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 1.33333em;
+    padding: 7px 18px;
+    margin-top: 0.8em;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.section{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+    border-bottom: solid #b5b5b5 0.5px;
+    
+}
+footer{
+    min-height: 50px;
+    text-align: left;
+    padding-top: 15;
+    padding-left:12;
+    padding-right:12;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: white;
+}
+#socialMedia{
+    float:right;
+    padding-right:20px;
+    opacity: .6;
+}
+.right{
+    float:right;
+}
+#schoolName{
+    margin-top: 25px;
+}
+#school{
+    margin-left: 25%;
+    width: 50%;
+    text-align:left;
+    padding-bottom: 20px;
+}
+#courseworkList{
+    list-style: circle;
+    list-style-position:inside;
+    text-align: left;
+    margin-left: 0;
+}
+#footerName{
+    float:left;
+    opacity: .6;
+    padding-left: 20px;
+}
+
+.imageContainer{
+    display: inline-block;
+    padding: 20 40 10 40;
+}
+img{
+    max-width: 45%;
+    min-width: 40%;
+    min-height: 80%;
+    max-height: 90%; 
+    border-radius: 6px;
+}
+ul{
+    list-style:none;
+    padding-left:0;
+}
+
+.description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;    
+}
+/*
+*
+* For Hamburger Patty Menu
+*
+*/
+#barContainer1{
+    float:right;
+    padding-right: 30px;
+    z-index: -10;
+}
+
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    opacity: .3;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-10px, 6px) ;
+}
+.changeBack .bar1{
+    transform: rotate(-45deg) translate(-10px, 6px) ;    
+}
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -3px) ;
+}
+.changeBack .bar3{
+    transform: rotate(45deg) translate(-6px, -3px);
+}
+.changeBack .bar2{
+    opacity: .3;
+}
+/*
+* End of Hamburger Patty Menu
+*/
+
+/*TOC*/
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    padding: 2px 50px 0 10px;
+  }
+  
+  .toc-holder {
+    text-align: right;
+  /*  //min-width: 60px;*/
+    margin-top: -60px;
+  }
+  
+  .toc-holder a {
+    text-decoration: none;
+  /*  -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    transition: all .7s ease;*/
+  }
+  
+  .toc-holder li li a {
+    padding-left: 60px;
+  }
+  
+  .toc-holder li li li a {
+    padding-left: 90px;
+  }
+  
+  .toc-holder li a:hover {
+    color: #000;
+  
+  }
+  
+  .toc-holder li li a:hover {
+    padding-left: 65px;
+  }
+  
+  .toc-holder li li li a:hover {
+    padding-left: 95px;
+  }
+  
+  .toc-holder {
+    position: fixed;
+    right: 0;
+  }
+  
+  a.toc-link {
+    color: #ccc;
+    position: relative;
+    display: block;
+    z-index: 1000;
+    min-width:200px;
+    height: 135px;
+    line-height: 40px;
+    padding-right: 30px;
+    padding-top: 65px;
+    margin-top:-40px;
+    width: 100%;
+    background: white;
+  }
+ 
+  
+  .toc-link span {
+    font-size: 30px;
+    margin-right: 70px;
+    display: inline-block;
+    -webkit-transition: -webkit-transform .4s ease;
+    -moz-transition: -moz-transform .4s ease;
+    -o-transition: -o-transform .4s ease;
+    -ms-transition: -ms-transform .4s ease;
+    transition: transform .4s ease;
+  }
+  
+  .toc-link span.rotate {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
+  .toc {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    opacity: 0.5;
+    right:0px;
+    background: white;
+    width: 100%;
+    padding-top: 60px;
+  }
+  
+  .toc-h1,.toc-h1 ul {
+    list-style: none;
+    margin: 50px;
+    padding: 0;
+    width: auto;
+  }
+  
+  ul.toc {
+    -webkit-padding-start: 0px;
+  }
+  
+  .toc-h1 a {
+    color: #333;
+    padding: 5px 20px 5px 30px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  /*
+  * Skill Bar
+  */
+  #skillContainer{
+    left:0;
+    width: 50%;
+    margin-left:25%;
+    height:auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+  
+  .skillbar {
+      position:relative;
+      display:block;
+      margin-bottom:15px;
+      width:100%;
+      background: #DADFE1;
+      height:35px;
+      border-radius:3px;
+      -moz-border-radius:3px;
+      -webkit-border-radius:3px;
+      -webkit-transition:0.4s linear;
+      -moz-transition:0.4s linear;
+      -ms-transition:0.4s linear;
+      -o-transition:0.4s linear;
+      transition:0.4s linear;
+      -webkit-transition-property:width, background-color;
+      -moz-transition-property:width, background-color;
+      -ms-transition-property:width, background-color;
+      -o-transition-property:width, background-color;
+      transition-property:width, background-color;
+  }
+  
+  .skillbar-title {
+      position: absolute;
+      top:0;
+      left:0;
+      width:110px;
+      font-weight:bold;
+      font-size:13px;
+      color:#ffffff;
+      background:#6adcfa;
+      -webkit-border-top-left-radius:3px;
+      -webkit-border-bottom-left-radius:4px;
+      -moz-border-radius-topleft:3px;
+      -moz-border-radius-bottomleft:3px;
+      border-top-left-radius:3px;
+      border-bottom-left-radius:3px;
+  }
+  
+  .skillbar-title span {
+      display:block;
+      background:rgba(0, 0, 0, 0.1);
+      padding:0 20px;
+      height:35px;
+      line-height:35px;
+      -webkit-border-top-left-radius:3px;
+      -webkit-border-bottom-left-radius:3px;
+      -moz-border-radius-topleft:3px;
+      -moz-border-radius-bottomleft:3px;
+      border-top-left-radius:3px;
+      border-bottom-left-radius:3px;
+  }
+  
+  .skillbar-bar {
+      height:35px;
+      width:0px;
+      background:#6adcfa;
+      border-radius:3px;
+      -moz-border-radius:3px;
+      -webkit-border-radius:3px;
+  }
+  
+  .skill-bar-percent {
+      position:absolute;
+      right:10px;
+      top:0;
+      font-size:11px;
+      height:35px;
+      line-height:35px;
+      color:#ffffff;
+      color:rgba(0, 0, 0, 0.4);
+  }
+
+  /*
+  * End Skill Bar
+  */
+  
